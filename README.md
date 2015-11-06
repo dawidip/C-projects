@@ -1,1 +1,2 @@
-# C-projects
+Small project.
+Simple Notepaqd in C#
