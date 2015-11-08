@@ -93,7 +93,30 @@ namespace TreePreview {
 
         private void usunFiltr(object sender, EventArgs e)
         {
+            int selectedIndex = filterListBox.SelectedIndex ;
+            if (selectedIndex == -1) //no filterSelected
+                return;
+            filterListBox.Items.RemoveAt(selectedIndex);
+        }
 
+        private void wGoreFiltr(object sender, EventArgs e)
+        {
+            int selectedIndex = filterListBox.SelectedIndex;
+            if (selectedIndex == -1 || selectedIndex == 0) //no filterSelected
+                return;
+            filterListBox.Items.Insert(selectedIndex - 1, filterListBox.Items[selectedIndex]);
+            filterListBox.Items.RemoveAt(selectedIndex + 1);
+            filterListBox.SelectedIndex--; //optional
+        }
+
+        private void naDolFiltr(object sender, EventArgs e)
+        {
+            int selectedIndex = filterListBox.SelectedIndex;
+            if (selectedIndex == -1 || filterListBox.Items.Count - 1 == selectedIndex) return;
+
+            filterListBox.Items.Insert(selectedIndex + 1, filterListBox.Items[selectedIndex]);
+            filterListBox.Items.RemoveAt(selectedIndex - 1);
+            filterListBox.SelectedIndex++;  //optional
         }
     
 	}

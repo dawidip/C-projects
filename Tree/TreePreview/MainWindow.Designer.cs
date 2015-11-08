@@ -39,11 +39,11 @@
             this.downButton = new System.Windows.Forms.Button();
             this.removeButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.filterListBox = new System.Windows.Forms.ListBox();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.mainPanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -215,6 +215,7 @@
             this.upButton.TabIndex = 0;
             this.upButton.Text = "W górę";
             this.upButton.UseVisualStyleBackColor = true;
+            this.upButton.Click += new System.EventHandler(this.wGoreFiltr);
             // 
             // downButton
             // 
@@ -224,6 +225,7 @@
             this.downButton.TabIndex = 1;
             this.downButton.Text = "W dół";
             this.downButton.UseVisualStyleBackColor = true;
+            this.downButton.Click += new System.EventHandler(this.naDolFiltr);
             // 
             // removeButton
             // 
@@ -244,6 +246,14 @@
             this.addButton.Text = "Dodaj...";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.dodajFiltr);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(3, 119);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 4;
             // 
             // tableLayoutPanel4
             // 
@@ -284,14 +294,6 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(3, 119);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 4;
             // 
             // MainWindow
             // 

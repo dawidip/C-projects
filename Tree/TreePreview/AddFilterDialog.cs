@@ -67,7 +67,7 @@ namespace TreePreview {
         public override string ToString()
         {
 
-            return argString1 + " " + argString2;
+            return argString1;// +" " + argString2;
         }
         /*
                 
