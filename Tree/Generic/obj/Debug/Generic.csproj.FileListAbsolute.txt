@@ -1,0 +1,5 @@
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\Generic\bin\Debug\Generic.dll
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\Generic\bin\Debug\Generic.pdb
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\Generic\obj\Debug\Generic.csprojResolveAssemblyReference.cache
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\Generic\obj\Debug\Generic.dll
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\Generic\obj\Debug\Generic.pdb

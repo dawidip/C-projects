@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<node name="korzeń" data="0">
+  <node name="węzeł 1" data="6">
+    <node name="podwęzeł 1.1" data="-2">
+      <node name="podpodwęzeł 1.1.1" data="4"></node>
+      <node name="podpodwęzeł 1.1.2" data="3"></node>
+    </node>
+    <node name="podwęzeł 1.2" data="1"></node>
+    <node name="jakiś inny podwęzeł" data="coś"></node>
+  </node>
+  <node name="węzeł 2" data="3"></node>
+  <node name="węzeł 3" data="6">
+    <node name="podwęzeł 3.1" data="6"></node>
+  </node>"
+</node>

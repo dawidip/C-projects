@@ -1,0 +1,12 @@
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\bin\Debug\TreePreview.exe.config
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\bin\Debug\TreePreview.exe
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\bin\Debug\TreePreview.pdb
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\bin\Debug\Tree.dll
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\bin\Debug\Tree.pdb
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.csprojResolveAssemblyReference.cache
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.AddFilterDialog.resources
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.MainWindow.resources
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.Properties.Resources.resources
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.csproj.GenerateResource.Cache
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.exe
+C:\Users\Dawid\Dropbox\TCS\C_HASH\Tree\TreePreview\obj\Debug\TreePreview.pdb
